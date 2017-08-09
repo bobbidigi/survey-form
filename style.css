@@ -2,7 +2,6 @@
 
 
 html, body{
-  background:url(images/screen.png) no-repeat;
   background-size: 100% 100%;
   text-align:center;
   font-family: 'Raleway', Helvetica, sans-serif;
@@ -12,19 +11,25 @@ html, body{
  color:#fff; 
   margin: auto;
   padding:20px;
-  max-width:95%;
-background-size: 100%;
+  width:100%;
+/*  background-size: 100%;*/
 }
 #form-outer {
   background-color: rgb(250, 250, 250);
   margin: 0 auto;
+  border: 1px dashed silver; 	
   border-radius: 4px;
   width: 80%;
   max-width: 900px;
   padding: 10px;
   padding-top: 25px;
 }
-
+#description{
+	font-weight: bolder;
+	padding: 10px 10px;
+	border: 5px dashed #fff;
+	width: 100%;
+}
 .labels {
   display: inline-block;
   text-align: right;
